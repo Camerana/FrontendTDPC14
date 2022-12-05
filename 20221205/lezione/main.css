@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+}
+
+h1 {
+    color: blueviolet;
+    text-align: center;
+    margin-top: 0px;
+}
+
+h2,
+h3 {
+    color: brown;
+    margin-left: 40px;
+    margin-top: 22px;
+}
+
+/*
+        p {
+            color: blue;
+        }
+        */
+#introduzione {
+    background-color: lightgreen;
+}
+
+#contenuto,
+#footer {
+    margin: 0px 50px;
+}
+
+.scritteBlu {
+    color: blue;
+}
+
+.testiCentrati {
+    text-align: center;
+}
+
+#paragrafoSpeciale {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
