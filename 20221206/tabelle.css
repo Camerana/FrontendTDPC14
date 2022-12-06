@@ -1,0 +1,24 @@
+table {
+    width: 76%;
+    border-spacing: 8px;
+}
+
+table, th, td {
+    border: solid 2px rgb(2, 148, 102);
+    border-collapse: collapse; 
+    text-align: center;
+}
+
+th {
+    background-color: rgb(184, 233, 233);
+    width: 50%;
+    height: 70px;
+}
+td {
+    padding: 10px;
+}
+
+
+/* 
+    commenti vari ed eventuali
+*/

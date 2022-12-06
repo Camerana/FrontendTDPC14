@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            color: blue;
+        }
+
+        #qui {
+            color: red;
+        }
+
+        .verde {
+            color: forestgreen;
+        }
+
+        .centrato {
+            text-align: center;
+        }
+
+        #qui:hover {
+            background-color: yellow;
+            color: blue;
+            font-size: 25px;
+        }
+
+        #boxRosso {
+            background-color: red;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        #boxRosso:hover {
+            background-color: green;
+        }
+    </style>
+
+    <link rel="stylesheet" href="tabelle.css">
+</head>
+
+<body>
+
+    <p id="qui" class="centrato">qui</p>
+    <p class="verde centrato">quo</p>
+    <p class="verde">qua</p>
+
+    <hr>
+
+    <div id="boxRosso"></div>
+
+    <hr>
+
+    <h2>le tabelle</h2>
+
+    <table>
+
+        <tr>
+            <th>nome</th>
+            <th>telefono</th>
+        </tr>
+        <tr>
+            <td>Mario</td>
+            <td>43534543543</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>456456546546</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <h2>rowspan e colspan</h2>
+    <table>
+        <tr>
+            <th colspan="2">nome</th>
+            <th>telefono</th>
+        </tr>
+        <tr>
+            <td>Vincenzo</td>
+            <td>Rossi</td>
+            <td>434354354543</td>
+        </tr>
+        <tr>
+            <td>Sabrina</td>
+            <td>Bianchi</td>
+            <td>213243454565</td>
+        </tr>
+        <tr>
+            <td>Edoardo</td>
+            <td>Verdi</td>
+            <td>324324324323</td>
+        </tr>
+        <tr>
+            <td>Mario</td>
+            <td>Azzurri</td>
+            <td rowspan="2">87987980989</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>Gialli</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h1>Tabella complessa</h1>
+    <h2 style="color: red;">
+        Il problema che riscontravamo su chrome era solo
+        dovuto al fatto che dovevamo impostare un'altezza alla cella...
+        ora anche su chrome si vede correttamente.
+    </h2>
+    <table>
+        <tr>
+            <td rowspan="3">day</td>
+            <td colspan="3">seminar</td>
+        </tr>
+        <tr>
+            <td colspan="2">schedule</td>
+            <td rowspan="2"></td>
+        </tr>
+        <tr>
+            <td>begin</td>
+            <td>end</td>
+        </tr>
+        <tr>
+            <td rowspan="2">monday</td>
+            <td rowspan="2">8.00</td>
+            <td rowspan="2">5.00</td>
+            <td>intro...</td>
+        </tr>
+        <tr>
+            <td>validity...</td>
+        </tr>
+        <tr>
+            <td rowspan="4">tuesday</td>
+            <td>8.00</td>
+            <td>11.00</td>
+            <td rowspan="2" style="height: 38px;">xp...</td>
+        </tr>
+        <tr>
+            <td rowspan="2">11.00</td>
+            <td rowspan="2">2.00</td>
+        </tr>
+        <tr>
+            <td rowspan="2">xsl...</td>
+        </tr>
+        <tr>
+            <td>2.00</td>
+            <td>5.00</td>
+        </tr>
+        <tr>
+            <td>wedn...</td>
+            <td>8.00</td>
+            <td>12.00</td>
+            <td>xls...</td>
+        </tr>
+
+    </table>
+
+
+    <br>
+    <br>
+    <br>
+</body>
+
+</html>
