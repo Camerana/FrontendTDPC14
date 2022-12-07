@@ -6,4 +6,4 @@ lezioni frontend tdpc14
 - [20221128]  HTML style border, accenno elementi inline vs block, span, esempi netflix, instagram
 - [20221129]  HTML inline e block, span e div, dimesionare e spostare div con proprietà margin
 - [20221205]  font-family, font-size, border-radius, padding, box model, css internal ed external, id e class, esercizio locandina
-- [20221206] hover, tabelle, colspan e rowspan
+- [20221206] hover, tabelle, colspan e rowspan, tabelle complesse
