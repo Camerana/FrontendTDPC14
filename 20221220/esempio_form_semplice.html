@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form html</title>
+    <style>
+        fieldset {
+            background-color: lightgray;
+            border-radius: 20px;
+            margin-bottom: 30px;
+        }
+        legend {
+            letter-spacing: 5px;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Form</h1>
+
+    <form action="signup.aspx">
+
+        <fieldset>
+
+            <legend>info base</legend>
+            <label for="fname">Nome:</label><br>
+            <input type="text" name="firstname" id="fname" required><br>
+
+            <label for="pwd">Password:</label><br>
+            <input type="password" name="pwd" id="pwd" disabled><br>
+        </fieldset>
+        <fieldset>
+            <legend>altre info</legend>
+
+            <p><b>la tua città preferita:</b></p>
+
+            <input type="radio" name="city" id="torino" value="TO">
+            <label for="torino">Torino</label><br>
+
+            <input type="radio" name="city" id="roma" value="RM">
+            <label for="roma">Roma</label><br>
+
+            <input type="radio" name="city" id="napoli" value="NA">
+            <label for="napoli">Napoli</label><br>
+
+            <p><b>i tuoi sport preferiti</b></p>
+            <input type="checkbox" name="sport1" id="sport1" value="BAS">
+            <label for="sport1">basket</label><br>
+            <input type="checkbox" name="sport2" id="sport2" value="PAD">
+            <label for="sport2">padel</label><br>
+            <input type="checkbox" name="sport3" id="sport3" value="TEN">
+            <label for="sport3">tennis</label><br>
+
+            <br>
+
+            <label for="gender"><b>il tuo genere:</b></label>
+            <br>
+            <select name="gender" id="gender">
+                <option value="">seleziona un'opzione:</option>
+                <option value="f">femmina</option>
+                <option value="m">maschio</option>
+                <option value="oth">altro</option>
+            </select>
+
+            <hr>
+            <input type="submit" value="invia il form!">
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>

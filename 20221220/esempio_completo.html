@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        legend {
+            font-size: 20px;
+            font-weight: bolder;
+        }
+
+        table {
+            border-spacing: 10px;
+        }
+
+        td {
+            width: 400px;
+            height: 50px;
+        }
+
+        table,
+        td {
+            border: 2px solid black;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+
+        /* tr:nth-child(2), tr:nth-child(4) {
+            background-color: blueviolet;
+            color: darksalmon;
+        } */
+        tr:nth-child(even) {
+            background-color: blueviolet;
+            color: darksalmon;
+        }
+
+        tr:nth-child(odd) {
+            background-color: darkcyan;
+            color: fuchsia;
+        }
+
+        tr:first-child {
+            background-color: brown;
+            color: bisque;
+        }
+
+        td:hover {
+            background-color: antiquewhite;
+            color: black;
+            font-weight: bolder;
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>
+        ciao, io sono un bel titolone.
+    </h1>
+
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, velit molestiae pariatur voluptatum
+        reiciendis omnis culpa unde odio doloremque sequi obcaecati rerum voluptatem ratione? Mollitia saepe aliquid cum
+        corrupti at?
+    </p>
+
+    <table>
+        <tr>
+            <td>uno</td>
+            <td>due</td>
+            <td>tre</td>
+            <td>quattro</td>
+        </tr>
+        <tr>
+            <td>cinque</td>
+            <td>sei</td>
+            <td>sette</td>
+            <td>otto</td>
+        </tr>
+        <tr>
+            <td>nove</td>
+            <td>dieci</td>
+            <td>undici</td>
+            <td>dodici</td>
+        </tr>
+        <tr>
+            <td>tredici</td>
+            <td>quattordici</td>
+            <td>quindici</td>
+            <td>sedici</td>
+        </tr>
+        <tr>
+            <td>uno</td>
+            <td>due</td>
+            <td>tre</td>
+            <td>quattro</td>
+        </tr>
+        <tr>
+            <td>cinque</td>
+            <td>sei</td>
+            <td>sette</td>
+            <td>otto</td>
+        </tr>
+        <tr>
+            <td>nove</td>
+            <td>dieci</td>
+            <td>undici</td>
+            <td>dodici</td>
+        </tr>
+        <tr>
+            <td>tredici</td>
+            <td>quattordici</td>
+            <td>quindici</td>
+            <td>sedici</td>
+        </tr>
+        <tr>
+            <td>uno</td>
+            <td>due</td>
+            <td>tre</td>
+            <td>quattro</td>
+        </tr>
+        <tr>
+            <td>cinque</td>
+            <td>sei</td>
+            <td>sette</td>
+            <td>otto</td>
+        </tr>
+        <tr>
+            <td>nove</td>
+            <td>dieci</td>
+            <td>undici</td>
+            <td>dodici</td>
+        </tr>
+        <tr>
+            <td>tredici</td>
+            <td>quattordici</td>
+            <td>quindici</td>
+            <td>sedici</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <form action="test.php" method="get" target="_blank" autocomplete="off">
+
+        <fieldset>
+
+            <legend>Gli input principali:</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" value="Danilo" disabled size="30">
+
+            <label for="cognome">Cognome:</label>
+            <input type="text" id="cognome" name="cognome" value="Epatti" readonly>
+
+            <p>Inserisci il tuo genere:</p>
+            <input type="radio" id="maschio" name="genere" value="MAS">
+            <label for="maschio">Maschio</label>
+            <input type="radio" id="femmina" name="genere" value="FEM">
+            <label for="femmina">Femmina</label>
+            <input type="radio" id="altro" name="genere" value="OTH" checked>
+            <label for="altro">Altro</label>
+
+            <p>Seleziona dove vuoi andare:</p>
+            <input type="checkbox" id="location1" name="location1" value="NYC">
+            <label for="location1">New York</label>
+            <input type="checkbox" id="location2" name="location2" value="TRN" checked>
+            <label for="location2">Torino</label>
+            <input type="checkbox" id="location3" name="location3" value="CTA">
+            <label for="location3">Catania</label>
+
+            <input type="submit" value="Invia">
+        </fieldset>
+
+        <!-- .../test.php?nome=Pippo&cognome=Pluto&genere=MAS&location1=NYC
+            - pagina indicata nella action
+            - ?
+            - input=valore separati da &
+        -->
+
+        <hr>
+
+        <fieldset>
+
+            <legend>Altri input:</legend>
+            <input type="button" value="button" onclick="alert('ciao sono un button');"><br>
+            <input type="color" name="" id=""><br>
+            <input type="date" name="" id="" min="2022-01-31" max="2030-12-31"><br>
+            <input type="datetime-local" name="" id=""><br>
+            <label for="mail">email</label><input type="email" name="mail" id="mail" required autofocus><br>
+            <input type="file" name="" id=""><br>
+            <input type="hidden" id="hiddenId" name="hiddenId" value="42"><br>
+            <input type="image"
+                src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Sabrina_Ferilli_%28cropped%29.jpg?20180105161728"
+                alt="" width="100"><br>
+            <label for="bday"></label><input type="month" name="bday" id="bday"><br>
+            <label for="numero">Numero:</label><input type="number" name="numero" id="numero" min="0" max="10"><br>
+            <input type="range" id="voto" name="voto" min="0" max="10" step="1"><br>
+            <input type="reset" value="reset"><br>
+            <label for="search">Cerca:</label><input type="search" name="search" id="search"><br>
+            <label for="telefono">Telefono:</label><input type="tel" name="telefono" id="telefono" maxlength="10"><br>
+            <input type="time" name="" id=""><br>
+            <label for="url">Url:</label><input type="url" name="url" id="url"><br>
+            <input type="week" name="" id=""><br>
+        </fieldset>
+
+        <hr>
+
+        <fieldset>
+
+            <legend>liste dropdown (select)</legend>
+
+            <label for="cocktails">Seleziona un cocktail:</label>
+            <select id="cocktails" name="cocktails" size="4" multiple>
+                <option value="">seleziona un cocktail</option>
+                <option value="MOJ">Mojito</option>
+                <option value="SPR" selected>Spritz</option>
+                <option value="MOS">Moscow Mule</option>
+            </select>
+        </fieldset>
+
+        <hr>
+
+        <fieldset>
+
+            <legend>testo multilinea: textarea</legend>
+
+            <textarea disabled name="msg" id="msg" cols="30" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis provident harum blanditiis deleniti error in autem facere at quas! Tenetur vel ratione at doloremque iure dolore eaque laboriosam tempora tempore?
+                </textarea>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Datalist</legend>
+
+            <p>Seleziona il tuo browser preferito:</p>
+            <input list="browsers">
+            <datalist id="browsers">
+                <option value="Internet Explorer">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+        </fieldset>
+
+    </form>
+
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias veritatis perferendis earum,
+        libero, eveniet repellat distinctio modi vel iusto laudantium esse ad minima voluptate aspernatur? Quasi eaque
+        sit fuga.
+    </p>
+    <hr>
+    
+
+</body>
+
+</html>

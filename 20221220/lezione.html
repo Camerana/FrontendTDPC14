@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="stile/form.css">
+</head>
+
+<body>
+
+    <h1>form</h1>
+
+    <form action="esempio.aspx" method="get">
+
+
+        <fieldset>
+            <legend>dati principali</legend>
+
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="firstname" placeholder="inserisci qui il tuo nome" required><br>
+            <label for="pwd">Password:</label><br>
+            <input type="password" id="pwd" name="pwd" value="Password01" readonly><br>
+
+        </fieldset>
+
+       
+
+
+        <br>
+
+        <p>scegli la città preferita:</p>
+
+        <input type="radio" id="torino" name="city" value="TO">
+        <label for="torino">Torino</label><br>
+        <input type="radio" id="roma" name="city" value="RM">
+        <label for="roma">Roma</label><br>
+
+        <br>
+
+        <p>seleziona le serie tv preferite</p>
+
+        <input type="checkbox" id="serie1" name="serie1" value="BB" checked>
+        <label for="serie1">Breaking Bad</label><br>
+        <input type="checkbox" id="serie2" name="serie2" value="CC">
+        <label for="serie2">La casa di carta</label><br>
+        <input type="checkbox" id="serie3" name="serie3" value="BBT">
+        <label for="serie3">Big Bang Theory</label><br>
+
+        <br>
+
+        <label for="streaming">scegli piattaforma di streaming:</label><br>
+        <select name="streaming" id="streaming">
+            <option value="">scegli un opzione</option>
+            <option value="N">Netflix</option>
+            <option value="P">Prime</option>
+            <option value="S">Sky</option>
+            <option value="D">Disney</option>
+        </select>
+
+        <hr>
+        <br>
+        <input type="submit" value="invia il form">
+
+    </form>
+
+</body>
+
+</html>

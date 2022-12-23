@@ -1,0 +1,26 @@
+table {
+    width: 100%;
+}
+table, th, td {
+    border: solid black 2px;
+    border-collapse: collapse;
+}
+.colore1 {
+    background-color: aquamarine;
+}
+
+tr:first-child {
+    background-color: blueviolet;
+}
+
+tr:nth-child(odd) {
+    background-color: brown;
+}
+tr:nth-child(even) {
+    background-color: blue;
+}
+td:hover {
+    background-color: green;
+    color: white;
+    
+}
