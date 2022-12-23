@@ -1,0 +1,66 @@
+body {
+    background-color: #edf0f5;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* generici */
+.colorePrincipale {
+    background-color: #166fe5;
+    color: white;
+}
+.colore2 {
+    background-color: #36a420;
+    color: white;
+}
+
+/* header */
+#header {
+    text-align: center;
+}
+#header h1 {
+    color: #166fe5;
+    font-weight: 900;
+}
+#header h2 {
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+/* form */
+form {
+    text-align: center;
+    background-color: white;
+    width: 250px;
+    border-radius: 8px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    box-shadow: 2px 2px 10px rgb(162, 161, 161);
+}
+
+input {
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    border: lightgray solid 1px;
+    font-size: 10px;
+    margin-bottom: 7px;
+}
+input[type=submit], input[type=button] {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 13px;
+}
+input[type=button] {
+    font-size: 10px;
+    width: auto;
+}
+
+form hr {
+    border: solid 1px rgb(201, 199, 199);
+}
+
+form a {
+    font-size: 10px;
+}
