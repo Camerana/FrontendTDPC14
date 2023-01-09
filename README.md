@@ -8,3 +8,5 @@ lezioni frontend tdpc14
 - [20221205]  font-family, font-size, border-radius, padding, box model, css internal ed external, id e class, esercizio locandina
 - [20221206] hover, tabelle, colspan e rowspan, tabelle complesse
 - [20221220] ripasso tabelle, selettori first-child e nth-child(), il form html
+- [20221223] esempio login di fb, selettori gerarchici
+- [20230109] ripasso selett gerarchici, css positioning (static, relative, absolute e fixed, esempio bandiera italia)
