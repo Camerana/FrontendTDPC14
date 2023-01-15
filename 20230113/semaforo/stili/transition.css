@@ -1,0 +1,93 @@
+#container {
+    position: relative;
+}
+
+/* sezione principale (sulla sinistra) */
+#main {
+    width: 50%;
+}
+
+#semaforo {
+    border: solid black 5px;
+    background-color: gray;
+    width: 150px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.box {
+    border: solid black 4px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* transition */
+    transition: all 1s ease 0s;
+}
+
+.box:first-child {
+    background-color: rgb(255, 0, 0, 0.1);
+}
+
+.box:nth-child(2) {
+    background-color: rgb(255, 255, 0, 0.1);
+}
+
+.box:nth-child(3) {
+    background-color: rgb(173, 255, 47, 0.1);
+}
+
+.box:first-child:hover, .box:nth-child(2):hover,
+.box:nth-child(3):hover {
+    transform: scale(1.2);
+}
+.box:first-child:hover {
+    background-color: rgb(255, 0, 0, 1);
+}
+
+.box:nth-child(2):hover {
+    background-color: rgb(255, 255, 0, 1);
+}
+
+.box:nth-child(3):hover {
+    background-color: rgb(173, 255, 47, 1);
+}
+
+/* sezione secondaria (sulla destra) */
+#parte2 {
+    width: 50%;
+    padding: 10px;
+
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+}
+
+.sezioni {
+    background-color: gray;
+    width: 50%;
+    height: 100px;
+    font-size: 10px;
+    color: whitesmoke;
+    border-radius: 10px;
+    opacity: 0.1;
+
+    transition: all 2s;
+}
+.sezioni p {
+    padding: 10px;
+}
+
+.sezioni:hover {
+    width: 80%;
+    opacity: 1;
+    font-size: 14px;
+    color: blue;
+    background-color: lightgray;
+
+    transform: rotate(360deg);
+}
