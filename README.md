@@ -10,4 +10,5 @@ lezioni frontend tdpc14
 - [20221220] ripasso tabelle, selettori first-child e nth-child(), il form html
 - [20221223] esempio login di fb, selettori gerarchici
 - [20230109] ripasso selett gerarchici, css positioning (static, relative, absolute e fixed, esempio bandiera italia)
-- [20230113] ripasso css positioning, css transitions
+- [20230113] ripasso css positioning, css transitions, esercizio semaforo
+- [20230116] ripasso transition, animation

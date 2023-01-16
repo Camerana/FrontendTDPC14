@@ -1,0 +1,82 @@
+#rosso {
+    width: 50px;
+    height: 50px;
+    background-color: #f32e2e;
+    border-radius: 8px;
+    margin-top: 25px;
+
+    position: relative;
+
+    /* animation-name: muoviBoxRosso;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite; 
+    animation-direction: alternate;
+    */
+
+    animation: muoviBoxRosso 4s linear 1s infinite;
+    
+    
+}
+
+
+@keyframes muoviBoxRosso {
+    /* from { }
+    to { } */
+
+    0% {
+        background-color: #f32e2e;
+        top: 0px;
+        left: 0px;
+    }
+    25% {
+        background-color: #eada07;
+        top: 0px;
+        left: 60px;
+    }
+    50% {
+        background-color: #15c01b;
+        top: 200px;
+        left: 60px;
+        transform: scale(2);
+    }
+    75% {
+        background-color: #008cff;
+        top: 200px;
+        left: 0px;
+    }
+    100% {
+        background-color: #ee00ff;
+        top: 0px;
+        left: 0px;
+        transform: rotate(360deg);
+        transform: scale(1);
+    }
+}
+
+
+
+
+#pippo {
+    width: 100%;
+    height: 50px;
+    background-color: #eada07;
+    position: relative;
+    animation: faiCoseConPippo 
+        5s ease-in-out 0s infinite alternate;
+}
+
+@keyframes faiCoseConPippo {
+    0% {
+        border-radius: 0px;
+        top: 0px;
+    }
+    50% {
+        top: 150px;
+    }
+    100% {
+        border-radius: 30px;
+        background-color: #15c01b;
+        top: 0px;
+    }
+}

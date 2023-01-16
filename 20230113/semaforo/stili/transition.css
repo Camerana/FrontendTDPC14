@@ -87,7 +87,7 @@
     opacity: 1;
     font-size: 14px;
     color: blue;
-    background-color: lightgray;
+    background-color: rgb(211, 211, 211);
 
     transform: rotate(360deg);
 }
