@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: green;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    /* height: 150px; */
+}
+
+.flex-container>div {
+    background-color: #99e999;
+    padding: 20px;
+    margin: 5px;
+    height: 15px;
+    width: 200px;
+}
+
+.flex-container2 {
+    display: flex;
+    background-color: blueviolet;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container2 div {
+    background-color: #c89def;
+    padding: 15px;
+    margin: 20px;
+    width: 40%;
+}
+

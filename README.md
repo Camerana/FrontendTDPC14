@@ -12,3 +12,4 @@ lezioni frontend tdpc14
 - [20230109] ripasso selett gerarchici, css positioning (static, relative, absolute e fixed, esempio bandiera italia)
 - [20230113] ripasso css positioning, css transitions, esercizio semaforo
 - [20230116] ripasso transition, animation
+- [20230117] css le basi di display grid e flex
