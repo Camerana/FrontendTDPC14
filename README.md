@@ -13,3 +13,5 @@ lezioni frontend tdpc14
 - [20230113] ripasso css positioning, css transitions, esercizio semaforo
 - [20230116] ripasso transition, animation
 - [20230117] css le basi di display grid e flex
+- [20230123] verifica INF_WB_CSS_E02
+- [20230124] bootstrap 5: container, p, m, allineamento, colors, row, col
