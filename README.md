@@ -15,3 +15,5 @@ lezioni frontend tdpc14
 - [20230117] css le basi di display grid e flex
 - [20230123] verifica INF_WB_CSS_E02
 - [20230124] bootstrap 5: container, p, m, allineamento, colors, row, col
+- [20230213] bootstrap 5: tabelle
+- [20230214] 
