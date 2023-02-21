@@ -18,4 +18,4 @@ lezioni frontend tdpc14
 - [20230213] bootstrap 5: tabelle
 - [20230214] bootstrap 5: card e button
 - [20230217] bootstrap 5: modal, introduzione javascript e variabili
- 
+- [20230217] js eventi, esercizio eventi
