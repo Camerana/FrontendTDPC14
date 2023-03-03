@@ -20,3 +20,4 @@ lezioni frontend tdpc14
 - [20230217] bootstrap 5: modal, introduzione javascript e variabili
 - [20230220] js variabili e funzioni
 - [20230221] js eventi, esercizio eventi
+- [20230303] js ripasso eventi, innerHTML, getElements, cicli di collezioni classList add e remove
