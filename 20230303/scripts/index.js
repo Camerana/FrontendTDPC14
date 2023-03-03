@@ -9,7 +9,7 @@ function coloraDiRosso() {
     // console.log("ciao");
 
     paragrafo.style.color = "red";
-    paragrafo.style.backgroundColor = "yellow"; 
+    paragrafo.style.backgroundColor = "yellow";
     paragrafo.style.padding = "20px";
     paragrafo.style.borderRadius = "4px";
 
@@ -24,7 +24,7 @@ const lista = document.getElementById("lst");
 const nome = "Lino";
 const nomi = ["Walter", "Jesse", "Mike", "Donatella"];
 
-for(let i = 0; i < nomi.length; i++) {
+for (let i = 0; i < nomi.length; i++) {
     lista.innerHTML += `<li>${nomi[i]}</li>`;
 }
 
@@ -34,14 +34,17 @@ for(let i = 0; i < nomi.length; i++) {
 // }
 
 
-// esercizio tabella
-const persone = [
-    {
-        id: 1001,
-        nome: "pino"
-    },
-    {
-        id: 1002,
-        nome: "laura"
+const button3 = document.getElementById("btn3");
+const paragrafi = document.getElementsByTagName("p");
+const parSpeciali = document.getElementsByClassName("specialPar");
+
+
+button3.onclick = function () {
+    console.log(paragrafi)
+    for (let i = 0; i < paragrafi.length; i++) {
+        paragrafi[i].style.backgroundColor = "red";
     }
-]
+    for (let i = 0; i < parSpeciali.length; i++) {
+        parSpeciali[i].style.backgroundColor = "green";
+    }
+}
