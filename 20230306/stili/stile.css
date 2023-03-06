@@ -9,3 +9,7 @@
 .margineSinistro {
     margin-left: 50px;
 }
+
+input {
+    /* display: block; */
+}
