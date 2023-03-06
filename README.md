@@ -21,3 +21,4 @@ lezioni frontend tdpc14
 - [20230220] js variabili e funzioni
 - [20230221] js eventi, esercizio eventi
 - [20230303] js ripasso eventi, innerHTML, getElements, cicli di collezioni classList add e remove
+- [20230306] js input.value, createElement, appendChild

@@ -87,5 +87,3 @@ paragrafo.innerText = "hahaha";
 // 3. appendere al div l'h2
 div.appendChild(intestazione);
 div.appendChild(paragrafo);
-
-
