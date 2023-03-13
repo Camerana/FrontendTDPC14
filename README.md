@@ -22,3 +22,5 @@ lezioni frontend tdpc14
 - [20230221] js eventi, esercizio eventi
 - [20230303] js ripasso eventi, innerHTML, getElements, cicli di collezioni classList add e remove
 - [20230306] js input.value, createElement, appendChild
+- [20230307] js verufucare input radio e checkbox selezionato da utente con proprietà checked; jquery selettori ed eventi
+- [20230310] js querySelector, js OOP e classi

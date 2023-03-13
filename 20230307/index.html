@@ -9,9 +9,27 @@
 </head>
 
 <body>
-    <input type="text" id="nome" placeholder="inserisci qui il nome">
-    <input type="button" id="btnInvia" value="invia">
-    
+    <form action="test.jsp" target="_blank" method="post">
+        <input type="text" id="nome" name="nome" placeholder="inserisci qui il nome">
+        <input type="password" id="pwd" name="pwd" placeholder="inserisci qui la password">
+
+        <p>seleziona genere:</p>
+        <input type="radio" id="maschio" name="gender" value="MAS">
+        <label for="maschio">Maschio</label><br>
+        <input type="radio" id="femmina" name="gender" value="FEM">
+        <label for="femmina">Femmina</label><br>
+        <br>
+        <p>seleziona i tuoi sport preferiti</p>
+        <input type="checkbox" id="sport1" name="sport1" value="TEN">
+        <label for="sport1">Tennis</label><br>
+        <input type="checkbox" id="sport2" name="sport2" value="ARR">
+        <label for="sport2">Arrampicata</label><br>
+        <input type="checkbox" id="sport3" name="sport3" value="BAS">
+        <label for="sport3">Basket</label><br><br>
+
+        <input type="submit" id="btnInvia" value="invia">
+    </form>
+
     <script src="scripts/index.js"></script>
 </body>
 
