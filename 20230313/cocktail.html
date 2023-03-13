@@ -921,7 +921,7 @@ const drink = `{
 const memejson = JSON.parse(drink);
 console.log(memejson)
 
-for(m of memejson) {
+for(m of memejson.data.memes) {
     console.log(m.name)
 }
 
