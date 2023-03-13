@@ -1,0 +1,10 @@
+{
+    "id": 102938,
+    "nome": "Pippo",
+    "patentato": true,
+    "coloriPreferiti": ["blu", "giallo"],
+    "residenza": {
+        "via": "Roma",
+        "civico": 12
+    }
+}
