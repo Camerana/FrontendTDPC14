@@ -1,0 +1,15 @@
+{
+    "result": "OK",
+    "persone": [
+        {
+            "id": 42,
+            "nome": "aaa"
+        },
+        {
+            "id": 101,
+            "nome": "bbb"
+        }
+    ]
+}
+
+

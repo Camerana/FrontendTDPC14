@@ -1,0 +1,20 @@
+[
+    {
+        "id": 42,
+        "titolo": "Guida galattica per autostoppisti",
+        "numeroPagine": 4354,
+        "generi": [
+            "fantasy",
+            "romanzo"
+        ]
+    },
+    {
+        "id": 11,
+        "titolo": "Pippo",
+        "numeroPagine": 32,
+        "generi": [
+            "giallo",
+            "horror"
+        ]
+    }
+]

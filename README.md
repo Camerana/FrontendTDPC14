@@ -24,3 +24,7 @@ lezioni frontend tdpc14
 - [20230306] js input.value, createElement, appendChild
 - [20230307] js verufucare input radio e checkbox selezionato da utente con proprietà checked; jquery selettori ed eventi
 - [20230310] js querySelector, js OOP e classi
+- [20230313] accenno json
+- [20230421] json
+- [20230426] web api e xmlhttprequest
+- [20230427] js asincrono e callback, arrow function, $.get
