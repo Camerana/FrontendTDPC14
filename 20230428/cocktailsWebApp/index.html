@@ -13,14 +13,22 @@
 
 <body>
 
-    <div class="container-fluid bg-danger text-white text-center">
+    <div class="container-fluid bg-danger text-white text-center p-5 mb-4">
         <h1>The cocktail API test</h1>
     </div>
 
     <div class="container">
+
+        <div class="row mb-5">
+            <input type="text" id="inputCocktail" class="form-control mb-2"
+                placeholder="inserisci qui il nome del tuo cocktail">
+            <input type="button" id="btnCerca" value="Cerca cocktails" class="btn btn-danger">
+        </div>
+
         <div class="row" id="containerCocktail">
             <!-- popolato dal js -->
         </div>
+        
     </div>
 
 
