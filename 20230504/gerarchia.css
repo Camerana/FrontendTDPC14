@@ -1,0 +1,15 @@
+p {
+    background-color: blue !important;
+}
+
+.miaClasse {
+    background-color: orange;
+}
+
+#mioId {
+    background-color: black;
+}
+
+p {
+    background-color: red;
+}

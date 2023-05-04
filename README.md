@@ -28,3 +28,7 @@ lezioni frontend tdpc14
 - [20230421] json
 - [20230426] web api e xmlhttprequest
 - [20230427] js asincrono e callback, arrow function, $.get
+- [20230428] ripasso xmlhttpreq, $.get e fetch, versione 1.0 cocktail web app
+- [20230502] versione 1.1 cocktail web app, addEventListener, onchange per menù a tendina
+- [20230504] la gerarchia nei css e casi di uso reale: versione 1.2 cocktail web app, google icons, UCL estrazioni
+- [20230505] verifica web api
